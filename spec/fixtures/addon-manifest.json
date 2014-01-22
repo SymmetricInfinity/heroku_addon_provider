@@ -1,0 +1,17 @@
+{
+  "id": "my-heroku-addon",
+  "api": {
+    "config_vars": [ "CONFIG_VAR_1", "CONFIG_VAR_2" ],
+    "regions": [ "us" ],
+    "password": "this is not a secure password",
+    "sso_salt": "this is not a secure salt",
+    "production": {
+      "base_url": "https://my-heroku-addon.com/heroku/resources",
+      "sso_url": "https://my-heroku-addon.com/heroku/sso"
+    },
+    "test": {
+      "base_url": "http://localhost:3000/heroku/resources",
+      "sso_url": "http://localhost:3000/heroku/sso"
+    }
+  }
+}

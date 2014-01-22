@@ -1,0 +1,11 @@
+---
+language: ruby
+rvm:
+- 1.9.2
+- 1.9.3
+- 2.0.0
+- jruby-19mode
+notifications:
+  email:
+  - adam.v.duke@gmail.com
+  - stefan.natchev@gmail.com
