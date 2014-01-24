@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/SymmetricInfinity/heroku_addon_provider.png?branch=master)](https://travis-ci.org/SymmetricInfinity/heroku_addon_provider)
+Build Status: [![Build Status](https://travis-ci.org/SymmetricInfinity/heroku_addon_provider.png?branch=master)](https://travis-ci.org/SymmetricInfinity/heroku_addon_provider)
 
 ## Installation
 
