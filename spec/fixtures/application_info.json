@@ -1,0 +1,15 @@
+{
+  "callback_url": "https://api.heroku.com/vendor/apps/app11111111%40heroku.com",
+  "config": {
+    "ZEROPUSH_DEV_TOKEN": "AAAAAAAAAAAAAAAAAAAA",
+    "ZEROPUSH_PROD_TOKEN": "BBBBBBBBBBBBBBBBBBBB"
+  },
+  "domains": [
+    "my-heroku-app.herokuapp.com"
+  ],
+  "id": "app11111111@heroku.com",
+  "logplex_token": "",
+  "name": "my-heroku-app",
+  "owner_email": "owner@my-heroku-app.com",
+  "region": "amazon-web-services::us-east-1"
+}

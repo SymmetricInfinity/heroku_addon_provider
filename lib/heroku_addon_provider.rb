@@ -8,11 +8,13 @@ class HerokuAddonProvider
 
   class << self
 
+    attr_accessor :manifest_path
+
     def manifest
       if manifest_path
-        @@manifest ||= JSON.load(File.read(manifest_path))
+        @manifest ||= JSON.load(File.read(manifest_path))
       elsif (defined?(Rails) && File.exists?("#{Rails.root}/addon-manifest.json"))
-        @@manifest ||= JSON.load(File.read("#{Rails.root}/addon-manifest.json"))
+        @manifest ||= JSON.load(File.read("#{Rails.root}/addon-manifest.json"))
       else
         raise 'Addon manifest not found'
       end
@@ -56,14 +58,6 @@ class HerokuAddonProvider
 
     def configure(&block)
       yield self
-    end
-
-    def manifest_path=(path)
-      @@manifest_path = path
-    end
-
-    def manifest_path
-      @@manifest_path
     end
 
     private
