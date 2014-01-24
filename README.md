@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/SymmetricInfinity/heroku_addon_provider.png?branch=master)](https://travis-ci.org/SymmetricInfinity/heroku_addon_provider)
+
 ## Installation
 
 Add this line to your application's Gemfile:
