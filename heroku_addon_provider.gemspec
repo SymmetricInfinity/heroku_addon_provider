@@ -23,8 +23,5 @@ Gem::Specification.new do |gem|
   gem.add_dependency "faraday_middleware", "~> 0.9.0"
 
   gem.add_development_dependency 'minitest',      '~> 4.7.0'
-  gem.add_development_dependency 'mocha',         '~> 0.13.3'
   gem.add_development_dependency 'rake',          '~> 10.0.3'
-  gem.add_development_dependency 'vcr',           '~> 2.4.0'
-  gem.add_development_dependency 'pry'
 end
