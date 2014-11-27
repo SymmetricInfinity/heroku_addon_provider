@@ -56,6 +56,10 @@ class HerokuAddonProvider
       end
     end
 
+    def update_config(heroku_id, new_config)
+      faraday.put("/vendor/apps/#{heroku_id}", {'config' => new_config}.to_json)
+    end
+
     def configure(&block)
       yield self
     end
